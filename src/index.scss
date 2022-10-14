@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Oleo Script Swash Caps', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+// change anchor style
+// use index.scss to reset things or to apply styles throughout the project
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+// don't want to have padding overwriting width 
+// use border-box means that 
+* {
+  box-sizing: border-box;
+}
